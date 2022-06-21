@@ -14,6 +14,8 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
+
+    
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
@@ -29,19 +31,23 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+
+
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Programming", "Web Development", "Blogging", "Studing", "Gaming"],
+        strings: ["Confidence Grows", "Greatness Lives", "Legacies are built", "Transformations are Done", "Goals are made"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Programming", "Web Development", "Blogging", "Studing", "Gaming"],
+        strings: ["Confidence Grows", "Greatness Lives", "Legacies are built", "Transformations are Done", "Goals are made"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
+
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
